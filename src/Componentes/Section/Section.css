@@ -1,0 +1,22 @@
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+  padding-inline-start: 8%;
+}
+
+/* ////////////Media Query ///////// */
+
+@media screen and (max-width: 390px) {
+  .tarjetas {
+    /* flex-direction: column; */
+    gap: 10px;
+    justify-content: flex-start;
+    padding-inline-start: 6%;
+    /* display: grid; */
+
+    width: 100%;
+    border-radius: 20px;
+  }
+}
